@@ -1,0 +1,19 @@
+@import "../../styles/colors";
+
+.expenses-chart-body-container {
+  background-color: $very-pale-orange;
+  border-radius: 16px;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  * {
+    background-color: $very-pale-orange;
+  }
+  h2 {
+    color: $dark-brown;
+    font-size: 1.5rem;
+  }
+  hr {
+    border: 1px solid $cream;
+    margin: 1rem 0 1rem 0;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../styles/colors";
+
+.my-balance-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $soft-red;
+  width: 100%;
+  color: $very-pale-orange;
+  padding: 1.5rem;
+  border-radius: 16px;
+  * {
+    background-color: $soft-red;
+  }
+  #balance {
+    font: {
+      size: 32px;
+      weight: bold;
+    }
+  }
+}

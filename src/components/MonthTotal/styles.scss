@@ -1,0 +1,35 @@
+@import "../../styles/colors";
+
+.month-total-container {
+  display: flex;
+  justify-content: space-between;
+
+  #total-this-month {
+    p:first-child {
+      color: $medium-brown;
+    }
+    p:last-child {
+      color: $dark-brown;
+      font: {
+        size: 40px;
+        weight: bold;
+      }
+    }
+  }
+
+  #from-last-month {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    p:first-child {
+      color: $dark-brown;
+      font-weight: bold;
+      text-align: right;
+    }
+
+    p:last-child {
+      color: $medium-brown;
+    }
+  }
+}

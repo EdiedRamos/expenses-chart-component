@@ -1,0 +1,9 @@
+.expenses-chart-container {
+  width: 90vw;
+}
+
+@media (min-width: 768px) {
+  .expenses-chart-container {
+    width: 500px;
+  }
+}
