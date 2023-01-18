@@ -1,0 +1,60 @@
+@import "../../styles/colors";
+
+.bar {
+  width: calc((100% - 90px) / 7);
+  background-color: $soft-red !important;
+  margin-right: 15px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.bar:last-child {
+  margin-right: 0;
+}
+
+.bar:hover {
+  cursor: pointer;
+  background-color: $soft-red-op-8 !important;
+}
+
+.bar::before {
+  content: attr(data-day);
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  bottom: -25px;
+  left: calc(50% - 15px);
+  color: $medium-brown;
+  font-size: 15px;
+  text-align: center;
+}
+
+.bar:hover::before {
+  cursor: auto;
+}
+
+.bar:hover::after {
+  content: attr(data-money);
+  height: 20px;
+  position: absolute;
+  z-index: 1;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $very-pale-orange;
+  font: {
+    size: 1rem;
+  }
+  text-align: center;
+  background-color: $dark-brown;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.today {
+  background-color: $cyan !important;
+}
+
+.today:hover {
+  background-color: $cyan-op-8 !important;
+}

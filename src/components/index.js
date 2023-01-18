@@ -1,7 +1,5 @@
-import MyBalance from './MyBalance';
-import MonthTotal from './MonthTotal';
+import Bar from "./Bar";
+import MonthTotal from "./MonthTotal";
+import MyBalance from "./MyBalance";
 
-export {
-  MyBalance,
-  MonthTotal
-}
+export { Bar, MonthTotal, MyBalance };

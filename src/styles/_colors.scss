@@ -1,9 +1,12 @@
 // primary
-$soft-red: hsl(10, 79%, 65%);
-$cyan: hsl(186, 34%, 60%);
+$soft-red: rgba(236, 118, 95, 1);
+$soft-red-op-8: rgba(236, 118, 95, 0.8);
+$cyan: rgba(118, 180, 187, 1);
+$cyan-op-8: rgba(118, 180, 187, 0.8);
 
 // neutral
-$dark-brown: hsl(25, 47%, 15%);
+$dark-brown: rgba(56, 35, 20, 1);
+$dark-brown-op-8: rgba(56, 32, 20, 0.8);
 $medium-brown: hsl(28, 10%, 53%);
 $cream: hsl(27, 66%, 92%);
 $very-pale-orange: hsl(33, 100%, 98%);
